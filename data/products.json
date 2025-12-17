@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "LEHENGA",
+    "price": 2999,
+    "image": "https://i.pinimg.com/736x/c0/6c/98/c06c9804bee22cb01d41d9e1c8ed59ea.jpg"
+  },
+  {
+    "id": 2,
+    "name": "PARTY WEAR",
+    "price": 1700,
+    "image": "https://i.pinimg.com/736x/6b/96/2c/6b962c0ee9cbb17cd8c2ab117ccc5286.jpg"
+  },
+  {
+    "id": 3,
+    "name": "SHRUG & PALAZZO",
+    "price": 2000,
+    "image": "https://i.pinimg.com/736x/b9/51/de/b951de4af0f0c58e11227d10abd396f8.jpg"
+  },
+  {
+    "id": 4,
+    "name": "KURTA SET",
+    "price": 1500,
+    "image": "https://i.pinimg.com/736x/dc/54/13/dc54130210cd8d1debb74c160b316eed.jpg"
+  },
+  {
+    "id": 5,
+    "name": "PALAZZO SET",
+    "price": 1458,
+    "image": "https://i.pinimg.com/1200x/c9/c1/d5/c9c1d5ffbbf76e8e1a89b2b4fd018c21.jpg"
+  }
+ 
+]
