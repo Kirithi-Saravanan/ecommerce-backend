@@ -15,10 +15,14 @@ createDB();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || "https://ecommerce-frontend-tau-flax.vercel.app",
-    credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization']
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    process.env.FRONTEND_URL || "https://ecommerce-frontend-tau-flax.vercel.app"
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }))
 
 app.use((req, res, next) => {
