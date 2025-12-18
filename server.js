@@ -15,7 +15,7 @@ createDB();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || "https://ecommerce-frontend1-ten.vercel.app",
+    origin: process.env.FRONTEND_URL || "https://ecommerce-frontend-tau-flax.vercel.app",
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
